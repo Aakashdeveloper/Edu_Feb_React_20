@@ -1,0 +1,68 @@
+> Es5 
+> Es6 (Ecma Script)
+
+
+Functional        | ClassBase
+Light in weight     Hevay in weight
+Dumb Component      Logical Component
+cannot maintain     Can maintain state
+State
+
+
+State Props
+
+ComponentA      ====>       ComponentB
+state=XYZ       Props       State=""
+
+
+> npm i -g create-react-app
+> create-react-app firstapp
+> firstapp
+> npm start
+
+
+filter 
+map
+
+var a = [0,1,2,3]
+
+a.filter((data) => { return data*1})
+>[1,2,3]
+a.map((data) => { return data*1})
+>[0,1,2,3]
+
+
+>>>>>
+Es5
+> 
+function add(a,b){
+    return a+b
+}
+
+Es6
+const add = (a,b) => { return a+b }
+
+class add {
+    constructor(a,b)
+}
+
+--------
+string
+number
+boolean
+
+1+1+'1'  = '21'
+'1'+1+1  = '111'
+
+
+'1'+1+'1'-1
+
+
+10%2
+0
+
+2%10
+
+.bind
+.call
+.apply
