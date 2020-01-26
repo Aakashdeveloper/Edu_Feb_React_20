@@ -66,3 +66,96 @@ boolean
 .bind
 .call
 .apply
+
+------------------------
+var a =[1,2,3,4,5]
+a.map((data) => return data*2)
+
+
+var b =[ 77,22,19,21,13,34,56]
+b.filter((data)=> {return data>20})
+b.map((data)=> {return data>20})
+
+var a = [0,1,2,3]
+a.filter((data) => { return data*1})
+>[1,2,3]
+
+a.map((data) => { return data*1})
+>[0,1,2,3]
+
+0== false
+1== true
+
+
+true+true
+
+>> Map alaways  return same length of array 
+   with new memory location
+
+>> Filter return length may vary depend upon
+   the condition to be true
+
+
+
+var a = [{"name":"a","class":1},{"name":"b","class":2}]
+var out = a.map((data) => {return data})
+
+
+
+var a = [{"name":"a","class":1},{"name":"b","class":2}]
+var out = a.map((data) => {return data})
+undefined
+out
+(2) [{…}, {…}]
+0: {name: "a", class: 1}
+1: {name: "b", class: 2}
+length: 2
+__proto__: Array(0)
+out[0].name="jjjj"
+"jjjj"
+out
+(2) [{…}, {…}]
+a
+(2) [{…}, {…}]
+0: {name: "jjjj", class: 1}
+1: {name: "b", class: 2}
+length: 2
+__proto__: Array(0)
+
+
+var a = ["Apple","Mango", "banana"]
+undefined
+a.indexOf("Apple")
+0
+a.indexOf("banana")
+2
+a.indexOf("orange")
+-1
+a.indexOf("kiwi")
+-1v
+
+jsx
+
+>>>
+npm i -g json-server
+json-server --watch db.json --port 8900
+
+Math.floor(Math.random()*(max-min))+min
+
+Math.floor(Math.random()*(9))+1
+
+
+var a =10
+"a":a ====> a
+
+// FirstTime
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testrepo1.git
+git push -u origin master
+
+//All next
+git add .
+git commit -m "first commit"
+git push 

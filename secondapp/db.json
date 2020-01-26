@@ -1,0 +1,39 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "name": "JavaScript",
+      "details": "JavaScript is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 2,
+      "name": "NodeJs",
+      "details": "NodeJs is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 3,
+      "name": "Erlang",
+      "details": "Erlang is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 4,
+      "name": "Golang",
+      "details": "Golang is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 5,
+      "name": "BlockChain",
+      "details": "BlockChain is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 254,
+      "name": "Python",
+      "details": "Python is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 530,
+      "name": "Php",
+      "details": "Php is simply dummy text of the printing and typesetting industry."
+    }
+  ]
+}
