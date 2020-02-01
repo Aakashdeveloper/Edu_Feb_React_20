@@ -159,3 +159,11 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push 
+
+npm i redux, react-redux
+
+redux
+graphql
+deployment
+nativeapp
+testing

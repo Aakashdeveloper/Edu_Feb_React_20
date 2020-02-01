@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import  DisplayPost from './DisplayPost';
+import axios from 'axios';
 const url = "http://localhost:8900/topics"
 
 class Posts extends Component {
@@ -19,11 +20,10 @@ class Posts extends Component {
     }
 
     componentDidMount(){
-        fetch(url,{method:'GET'})
-        .then((res) => res.json())
-        .then((data) => 
-        {
-           this.setState({topics:data}) 
+        axios.get(url)
+        .then((res) => {
+            const mydata = res.data;
+            this.setState({topics:mydata})
         })
     }
     

@@ -5,6 +5,8 @@ import Posts from './Post';
 import Profile from './Profile';
 import PostDetails from './PostDetails';
 import FormsComponent from './FormsComponent';
+import Hooks from './Hooks';
+import LifeCycle from './lifecycle'
 
 const Routing = () => {
     return(
@@ -28,6 +30,8 @@ const Routing = () => {
                         <li><Link to="/post">Post</Link></li>
                         <li><Link to="/profile">Profile</Link></li>
                         <li><Link to="/forms">Forms</Link></li>
+                        <li><Link to="/hooks">Hooks</Link></li>
+                        <li><Link to="/lifeCycle">LifeCycle</Link></li>
                     </ul>
                     </div>
                 </div>
@@ -38,6 +42,9 @@ const Routing = () => {
             <Route path="/post/:id" component={PostDetails}></Route>
             <Route path="/profile" component={Profile}></Route>
             <Route path="/forms" component={FormsComponent}></Route>
+            <Route path="/hooks" component={Hooks}></Route>
+            <Route path="/lifeCycle" component={LifeCycle}></Route>
+            
         </div>
         </BrowserRouter>
         </div>
