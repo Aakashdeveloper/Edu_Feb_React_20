@@ -167,3 +167,5 @@ graphql
 deployment
 nativeapp
 testing
+
+npm i redux react-redux react-slick redux-promise react-router-dom
