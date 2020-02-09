@@ -162,10 +162,7 @@ git push
 
 npm i redux, react-redux
 
-<--------
-graphql
-nativeapp
-------->
+
 
 npm i redux react-redux react-slick redux-promise react-router-dom
 
@@ -189,3 +186,5 @@ docker run -p 8989:3000 feb/react
 npm i -g create-react-native-app
 
 create-react-native-app mobileapp
+
+''''''
